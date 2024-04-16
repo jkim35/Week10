@@ -5,9 +5,9 @@ public class accountsetup{
         String password;
         int length;
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter username: ");
+        System.out.print("Enter username (Only one word): ");
         username = input.next();
-        System.out.print("Enter a password 8 characters long (Only one word): ");
+        System.out.print("Enter a password 8 characters long: ");
         password = input.next();
         length = password.length();
         while(length<7){
